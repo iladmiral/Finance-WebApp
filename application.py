@@ -199,9 +199,8 @@ def reset():
         if not request.form.get("confirmpassword"):
             return apology("confirm new password")
         rows = db.execute("SELECT * FROM users WHERE id = :iduser", iduser=session["user_id"])
-        #That's not correctly working
-        #if not check_password_hash(rows[0]["hash"], request.form.get("password")):
-            #apology("provide a correct password")
+        if not check_password_hash(rows[0]["hash"], request.form.get("password")):
+            apology("provide a correct password")
         if request.form.get("newpassword") != request.form.get("confirmpassword"):
             return apology("new passwords not match")
         else:
