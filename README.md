@@ -30,5 +30,3 @@ note: if you are in windows use `set` intead of `export`.
 
 # Images
 ![Web view](https://github.com/iladmiral/Finance-Website/blob/master/images/Web_finance.PNG "web view")
-
-![mobile view](https://github.com/iladmiral/Finance-Website/blob/master/images/mobile_view.PNG "mobile view")
