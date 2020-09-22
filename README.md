@@ -24,9 +24,17 @@ We’ll need to register for an API key in order to be able to query IEX’s dat
 
 `export API_KEY=value`
 
-note: if you are in windows use `set` intead of `export`.
+note: if you are in windows use `set` instead of `export`.
 
 # Running
+
+set the default app to run, execute:
+
+`set FLASK_APP=application.py`
+
+run the app,
+
+`Flask run`
 
 # Images
 ![Web view](https://github.com/iladmiral/Finance-Website/blob/master/images/Web_finance.PNG "web view")
