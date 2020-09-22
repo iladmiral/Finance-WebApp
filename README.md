@@ -29,3 +29,4 @@ note: if you are in windows use `set` intead of `export`.
 # Running
 
 # Images
+![Web view](https://github.com/iladmiral/Finance-Website/blob/master/images/Web_finance.PNG "web view")
