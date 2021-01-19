@@ -3,7 +3,7 @@ A web app via which you can manage portfolios of stocks. It will allow you to ch
 
 # Requirements
 In order to run this app, you need to install these packages:
-- cs50
+
 - Flask
 - Flask-Session
 - requests
